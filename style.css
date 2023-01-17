@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    /*outline: 1px solid rgb(179, 255, 0);*/
+}
+
+.container{
+    height: 650px;
+    width: 970px;
+    margin: 0px auto;
+    background-color: #3a3939;
+}
+
+    .header{
+        background-color: #8892bf;
+        height: 50px;
+    }
+        .header .logo{
+            height: 15px;
+            width: 50px;
+            margin: 15px 0px 0px 0px;
+            margin-left: 20px;
+        }
+
+        .header a{
+            margin: 0px 0px 0px 2px;
+            padding: 7px;
+            font-size: medium;
+            text-decoration: none;
+            color: azure;
+        }
+
+        .header .search{
+            margin-left: 190px;
+            width: 210px;
+        }
+
+    .section1 {
+        display: inline-block;
+        margin: 20px 20px 0px 20px;
+        font-size: x-small;
+    }
+
+    .section2 { 
+        display: inline-block;
+        margin: 20px 20px 0px 20px;
+        margin-left: 550px;
+        font-size: x-small;
+    }
+
+        .section1 a{
+            text-decoration: none;
+            color: rgba(240, 255, 255, 0.589);
+            margin-left: 10px;
+        }
+
+        .section2 a{
+            text-decoration: none;
+            color: rgba(240, 255, 255, 0.589);
+            margin-left: 10px;
+        }
+
+.main {
+    height: 490px;
+    width: 700px;
+    margin: 0px 0px 0px 30px;
+    background-color: #f2f2f2;
+    display: inline-block;
+}
+
+    .main .drop-down{
+        color: rgb(0, 0, 0);
+        margin: 30px 0px 0px 490px;
+        padding-top: 0px;
+        font-size: small;
+    }
+
+    .main .submit {
+        margin-left: 480px;
+    }
+        .main .submit a{
+            text-decoration: none;
+            font-size: x-small;
+            margin-left: 10px;
+        }
+
+    .main h1{
+        font-size: x-large;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .main #dotted{
+        border: none;
+        border-top: 1px dotted black;
+        width: 650px;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .main h2{
+        font-size: large;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .main .links{
+        font-size: small;
+        margin: 20px 0px 0px 30px;
+    }
+
+    .main .paragraph{
+        font-size: x-small;
+        margin: 10px 0px 0px 30px;
+    }
+
+    .main .go-up{
+        font-size: x-small;
+        margin: 0px 0px 0px 30px;
+    }
+
+    .main h3{
+        font-size: medium;
+        color: #793875;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .main .add{
+        width: 10px;
+        margin-left: 600px;
+    }
+
+    .main #add{
+        width: 20px;
+        font-size: xx-small;
+    }
+
+    .main .dotted-purple{
+        border: none;
+        border-top: 1px dotted #793875;
+        width: 650px;
+        margin: 20px 0px 0px 20px;
+    }
+    
+    .footer li{
+        height: 20px;
+        width: auto;
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: x-small;
+    }
+
+    .footer a{
+        color: azure;
+        text-decoration: none;
+    }
+
+    .main-side{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+
+    .main-side a{
+        text-decoration: none;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .main-side #dotted{
+        border: none;
+        border-top: 1px dotted rgb(255, 255, 255);
+        width: 200px;
+        margin: 5px 10px 5px 20px;
+    }
+
+    .main-side #purple-dotted{
+        border: none;
+        border-top: 1px dotted #793875;
+        width: 200px;
+        margin: 5px 10px 5px 20px;
+    }
+
+    .main-side .bigger{
+        font-size: small;
+    }
+
+    .main-side .smaller{
+        font-size: xx-small; 
+    }
+
+    .main-side .smallest a{
+        color: #e96be0;
+        font-size: xx-small;
+    }
